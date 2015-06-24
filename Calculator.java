@@ -46,13 +46,13 @@ public class Calculator {
         switch(i)
         {
             case 1:
-                result=a+b;
+                result=a+b; //addition performed
                 break;
             case 2:
-                result=a-b;
+                result=a-b; //substraction  performed
                 break;
             case 3:
-                result=a*b;
+                result=a*b; //multiplication
                 break;
             case 4:
                 if(b==0)
@@ -62,21 +62,21 @@ public class Calculator {
                 }
                 else
                 {
-                result=a/b;
+                result=a/b; //division 
                 }
             case 5:
-                result=Math.pow(a,b);
+                result=Math.pow(a,b); //exponents
                 break;
             case 6:
-                result=Math.sqrt(a);
+                result=Math.sqrt(a);  //square root
                 break;
             case 7:
-                result=Math.log(a);
+                result=Math.log(a); //logarithm
                 break;
            case 8:
                 int d;
                 int f=1;
-                for(d=1;d<=a;d++)
+                for(d=1;d<=a;d++)   //factorial
                 {
                     f=f*d;
                 }
