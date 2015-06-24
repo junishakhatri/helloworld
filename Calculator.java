@@ -30,16 +30,16 @@ public class Calculator {
             System.exit(0);
         }
            
-        System.out.println("ENTER FIRST NUMBER ");
+        System.out.println("ENTER FIRST NUMBER "); //taken 1st number as input from user
         double a=s.nextDouble();
         if(a==0)
         {
-            System.out.println("Bye,its time to quit");
+            System.out.println("Bye,its time to quit"); //if 1st number is 0,then quit the program
         }
         else
         {
            
-        System.out.println("ENTER SECOND NUMBER ");
+        System.out.println("ENTER SECOND NUMBER "); //taken 2nd number as input from user
         double b=s.nextDouble();
            
         double result=0;
