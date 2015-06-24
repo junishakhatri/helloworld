@@ -22,8 +22,7 @@ public class Calculator {
         System.out.println("6. SQUARE ROOT");
         System.out.println("7. LOGARITHM");
         System.out.println("8. FACTORIAL");
-        // System.out.println("9. ROUNDING");
-        System.out.println("10. Want to quit");
+        System.out.println("9. Want to quit");
         System.out.println("ENTER YOUR CHOICE : ");
         int i=s.nextInt();
         if(i==9)
